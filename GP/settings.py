@@ -121,4 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Update the model used for user authentication to use the extended User model
 AUTH_USER_MODEL = 'recipes.User'
